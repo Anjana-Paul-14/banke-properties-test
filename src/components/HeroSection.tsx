@@ -7,7 +7,7 @@ export const HeroSection: React.FC = () => {
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center animate-fade-in -mt-20 md:-mt-32">
-          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-tight max-w-4xl">
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-tight max-w-6xl">
             Where{" "}
             <span className="text-brand-yellow">
               <b>Exclusivity</b>
