@@ -38,18 +38,21 @@ export const Header: React.FC = () => {
                 <span>About Us</span>
                 <span className={`absolute left-0 -bottom-1 h-0.5 bg-yellow-400 transition-all duration-300 ${isActive("/about") ? "w-full" : "w-0 group-hover:w-full"}`}></span>
               </Link>
-              <a href="#projects" className="group relative hover:text-yellow-400 transition-all duration-300">
+              <Link to="/projects" className={`group relative hover:text-yellow-400 transition-all duration-300 ${isActive("/projects") ? "text-yellow-400" : ""}`}>
                 <span>Exclusive Projects</span>
-                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#team" className="group relative hover:text-yellow-400 transition-all duration-300">
+                <span className={`absolute left-0 -bottom-1 h-0.5 bg-yellow-400 transition-all duration-300 ${isActive("/projects") ? "w-full" : "w-0 group-hover:w-full"}`}></span>
+
+              </Link>
+              <Link to="/team" className={`group relative hover:text-yellow-400 transition-all duration-300 ${isActive("/team") ? "text-yellow-400" : ""}`}>
                 <span>Meet Our Team</span>
-                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#contact" className="group relative hover:text-yellow-400 transition-all duration-300">
+                <span className={`absolute left-0 -bottom-1 h-0.5 bg-yellow-400 transition-all duration-300 ${isActive("/team") ? "w-full" : "w-0 group-hover:w-full"}`}></span>
+                
+              </Link>
+              <Link to="/contact" className={`group relative hover:text-yellow-400 transition-all duration-300 ${isActive("/contact") ? "text-yellow-400" : ""}`}>
                 <span>Contact Us</span>
-                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+                <span className={`absolute left-0 -bottom-1 h-0.5 bg-yellow-400 transition-all duration-300 ${isActive("/contact") ? "w-full" : "w-0 group-hover:w-full"}`}></span>
+                
+              </Link>
             </div>
           </nav>
           <button 
