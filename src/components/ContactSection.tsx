@@ -84,8 +84,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <span className="text-gray-700">Developer</span>
                 </label>               
-                <span className="text-gray-400">|</span>
-                
+                <span className="text-gray-400">|</span>                
                 <label className="flex items-center space-x-2 cursor-pointer">
                   <input
                     type="radio"
