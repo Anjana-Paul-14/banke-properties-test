@@ -65,7 +65,6 @@ export const ContactSection: React.FC = () => {
           <h2 className="text-black text-3xl md:text-5xl font-semibold leading-tight mb-6">
             Be The First To<br />Grow With Banke
           </h2>
-          
           <p className="text-black text-lg md:text-xl font-light leading-relaxed mb-8">
             Banke International Properties brings you residential and commercial exclusives that are not available elsewhere. Gain priority access, tailored advisory, and investment-ready opportunities today.
           </p>
