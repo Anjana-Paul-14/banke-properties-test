@@ -68,7 +68,6 @@ export const ContactSection: React.FC = () => {
           <p className="text-black text-lg md:text-xl font-light leading-relaxed mb-8">
             Banke International Properties brings you residential and commercial exclusives that are not available elsewhere. Gain priority access, tailored advisory, and investment-ready opportunities today.
           </p>
-          
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <div className="flex items-center space-x-6 mb-6">
