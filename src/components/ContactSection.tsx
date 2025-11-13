@@ -71,8 +71,7 @@ export const ContactSection: React.FC = () => {
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <div className="flex items-center space-x-6 mb-6">
-                <span className="text-gray-700 text-base">Are you a</span>
-                
+                <span className="text-gray-700 text-base">Are you a</span>                
                 <label className="flex items-center space-x-2 cursor-pointer">
                   <input
                     type="radio"
