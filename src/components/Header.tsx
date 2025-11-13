@@ -44,7 +44,6 @@ export const Header: React.FC = () => {
               <Link to="/team" className={`group relative hover:text-yellow-400 transition-all duration-300 ${isActive("/team") ? "text-yellow-400" : ""}`}>
                 <span>Meet Our Team</span>
                 <span className={`absolute left-0 -bottom-1 h-0.5 bg-yellow-400 transition-all duration-300 ${isActive("/team") ? "w-full" : "w-0 group-hover:w-full"}`}></span>
-                
               </Link>
               <Link to="/contact" className={`group relative hover:text-yellow-400 transition-all duration-300 ${isActive("/contact") ? "text-yellow-400" : ""}`}>
                 <span>Contact Us</span>
