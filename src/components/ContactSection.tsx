@@ -61,7 +61,6 @@ export const ContactSection: React.FC = () => {
             className="w-full h-64 lg:h-full object-cover"
           />
         </div>
-        
         <div className="w-full lg:w-1/2 bg-gray-100 p-8 lg:p-16">
           <h2 className="text-black text-3xl md:text-5xl font-semibold leading-tight mb-6">
             Be The First To<br />Grow With Banke
