@@ -83,8 +83,7 @@ export const ContactSection: React.FC = () => {
                     {userType === 'developer' && <div className="w-2 h-2 rounded-full bg-white"></div>}
                   </div>
                   <span className="text-gray-700">Developer</span>
-                </label>
-                
+                </label>               
                 <span className="text-gray-400">|</span>
                 
                 <label className="flex items-center space-x-2 cursor-pointer">
