@@ -164,7 +164,6 @@ export const ContactSection: React.FC = () => {
                 )}
               </div>
             </div>
-
             <Button
               type="submit"
               variant="outline"
