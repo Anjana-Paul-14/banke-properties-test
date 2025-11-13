@@ -102,6 +102,7 @@ export const ContactSection: React.FC = () => {
                 <p className="text-red-500 text-sm">{errors.userType.message}</p>
               )}
             </div>
+
             <div className="space-y-6">
               <div>
                 <input
